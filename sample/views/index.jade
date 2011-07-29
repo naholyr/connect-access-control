@@ -1,0 +1,30 @@
+h1= title
+p Welcome to #{title}
+p Roles: #{user.getRoles()}
+p Authenticated: #{user.isLoggedIn()}
+
+ul
+  li
+    strong credentials
+    ul
+      li
+        a(href="/add/admin") log in and add "admin" role
+      li
+        a(href="/remove/admin") remove "admin" role
+      li
+        a(href="/add/moderator") log in add moderator role
+      li
+        a(href="/remove/moderator") remove "moderator" role
+      li
+        a(href="/logout") log out
+  li
+    strong tests
+    ul
+      li
+        a(href="/test-public") checks nothing
+      li
+        a(href="/test-private") checks logged in
+      li
+        a(href="/test-admin") checks "admin" role
+      li
+        a(href="/test-moderator") checks "moderator" role
