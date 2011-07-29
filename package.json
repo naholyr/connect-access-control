@@ -1,0 +1,17 @@
+{
+  "author": "Nicolas Chambrier <naholyr@gmail.com> (http://naholyr.fr)",
+  "name": "connect-access-control",
+  "description": "Connect middleware to provide simple role-based access control",
+  "version": "1.0.0",
+  "homepage": "https://github.com/naholyr/connect-access-control",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naholyr/connect-access-control.git"
+  },
+  "main": "lib/access-control.js",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
