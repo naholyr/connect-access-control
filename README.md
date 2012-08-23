@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/naholyr/connect-access-control.png)](http://travis-ci.org/naholyr/connect-access-control)
 Connect Access Control middleware
 =================================
 
